@@ -1,6 +1,12 @@
 package main
 
-import "github.com/hajimehoshi/ebiten/v2"
+import (
+	"embed"
+
+	"github.com/hajimehoshi/ebiten/v2"
+)
+
+var assets embed.FS
 
 type Game struct{}
 
