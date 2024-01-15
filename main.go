@@ -2,6 +2,7 @@ package main
 
 import (
 	"embed"
+	_ "image/png"
 
 	"github.com/hajimehoshi/ebiten/v2"
 )
